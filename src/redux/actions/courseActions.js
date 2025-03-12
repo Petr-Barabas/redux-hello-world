@@ -13,8 +13,9 @@ export function updateCourseSuccess(course) {
   return { type: types.UPDATE_COURSE_SUCCESS, course };
 }
 
+// This could be re-write to async functions!
 export function loadCourses() {
-  return function(dispatch) {
+  return function (dispatch) {
     return courseApi
       .getCourses()
       .then(courses => {
@@ -28,7 +29,7 @@ export function loadCourses() {
 
 export function saveCourse(course) {
   //eslint-disable-next-line no-unused-vars
-  return function(dispatch, getState) {
+  return function (dispatch, getState) {
     return courseApi
       .saveCourse(course)
       .then(savedCourse => {
