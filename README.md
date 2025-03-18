@@ -1,4 +1,5 @@
-# Starter Kit for [Building Applications in React and Redux](http://www.pluralsight.com/author/cory-house) on Pluralsight
+# This repository serves for the new developers in the world of redux.
+
 
 ## Get Started
 
@@ -16,3 +17,7 @@
 4. On Windows? Open your console as an administrator. This will assure the console has the necessary rights to perform installs.
 5. Ensure you do not have NODE_ENV=production in your env variables as it will not install the devDependencies. To check run this on the command line: `set NODE_ENV`. If it comes back as production, you need to clear this env variable.
 6. Nothing above work? Delete your node_modules folder and re-run npm install.
+
+## Switch to the branch 'redux-basics-playground'
+
+**info: the 'main' branch is only for inspiration for the learning purpose**
